@@ -1,8 +1,12 @@
 import React from 'react'
+import Nav from './Components/Nav/Nav'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Nav/>
+      <div className='bg-slate-100 h-[100vh] '>Rest</div>
+    </div>
   )
 }
 
