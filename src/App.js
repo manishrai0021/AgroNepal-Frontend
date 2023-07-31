@@ -10,6 +10,7 @@ import Signup from "./Components/Nav/Signup";
 import ForgetPass from "./Components/Pages/ForgetPass";
 import AboutUs from "./Components/Home/AboutUs";
 import ContactUs from "./Components/Home/ContactUs";
+import Tree from "./Components/Farmers/Tree";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/tree" element={<Tree />} />
           <Route path="/farmers" element={<Farmers />} />
           <Route path="/login" element={<Login />} />
           <Route path="/reset" element={<ForgetPass />} />
